@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>像素风格游戏</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="start-screen">
+      <button id="start-btn">开始</button>
+    </div>
+
+    <div id="character-selection" class="hidden">
+      <h2>选择一个角色</h2>
+      <div class="character" id="character-1" data-character="李奕渊">李奕渊 (蓝色)</div>
+      <div class="character" id="character-2" data-character="杨凯尧">杨凯尧 (白色)</div>
+      <div class="character" id="character-3" data-character="曹博雄">曹博雄 (粉色)</div>
+      <div class="character" id="character-4" data-character="殷章哲">殷章哲 (黑色)</div>
+    </div>
+
+    <div id="game-screen" class="hidden">
+      <canvas id="game-canvas"></canvas>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
